@@ -1,0 +1,31 @@
+* { 
+    font-family: fantasy;
+}
+label {
+    margin: 10px;
+}
+
+button {
+    width: 100px;
+    background-color: #72b661;
+    padding: 10px;
+    font-size: 15px;
+}
+form {
+    display: grid;
+    grid-template-columns: 2fr;
+    grid-gap: 10px;
+}
+
+.resultado {
+    width: 200px;
+    height: 80px;
+    margin: 30px 25px;
+    padding: 2px;
+    font-size: 15px;
+    text-align: center;
+    background-color: rgb(41, 97, 161);
+    border: solid 2px #121212;
+    color: #fff;
+    border-radius: 16px;
+}
